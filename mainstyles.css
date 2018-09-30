@@ -2,3 +2,29 @@
 body {
     background: url(images/warframe.jpg) repeat 0 0 ;
 }
+
+.home {
+    background: url(images/harrow.gif);
+    background-size: 100%;
+}
+
+img {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.aboutpagetext {
+    letter-spacing: 3px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+}
+
+.SocialMedia {
+background-position: 0 -170px;
+height: 34px;
+width: 34px;
+}
