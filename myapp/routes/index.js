@@ -2,16 +2,18 @@ var express = require("express");
 var router = express.Router();
 
 /* GET home page. */
-router.get("/", function(req, res, next) {
-  res.render("index", { title: "The Home Page" });
+router.get("/", function(req, res) {
+  res.render("index");
 });
 
-router.get("/warframe", function(req, res, next) {
-  res.render("index", { title: "The Warframe Page" });
+// Warframe page route.
+router.get("/warframe", function(req, res) {
+  res.render("warframe");
 });
 
-router.get("/about", function(req, res, next) {
-  res.render("about", { title: "The About Page" });
+// About page route.
+router.get("/about", function(req, res) {
+  res.render("about");
 });
 
 module.exports = router;
