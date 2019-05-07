@@ -23,10 +23,14 @@
     <!-- Regular Bootstrap -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   </head>
-  <body>
 
+  <body>
     <!-- Navigation Bar and Links to each Page  -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
       
       <!-- Warframe Home Button -->
       <a href="/" title="HOME Button"> Warframe Fan Site</a>
@@ -50,9 +54,63 @@
       </div>
     </nav>
 
-    <!-- Actual Body Here -->
+    <!-- Navigation Bar End -->
 
-    <img src="/myapp/public/images/isaiah.jpg" class="mx-auto d-block" style="width:50%"> 
+    <!-- Actual Body Content Here -->
+
+    <style>
+        /* Carousel for the About Page */
+        .carousel-inner img {
+          width: 100%;
+          height: 500px;
+        }
+        </style>
+      </head>
+      <body>
+      
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/earlyalpha1.jpg" alt="Early Ideas" width="1100" height="500">
+            <div class="carousel-caption">
+              <h1 class="about-text-title">Concepts and Thinking</h1>
+              <p class="about-text">When coming up with this project I kept in mind that I wanted to make something that would be easy to understand as well as showcase.</p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="images/earlyalpha2.jpg" alt="Planning">
+            <div class="carousel-caption">
+              <h1 class="about-text-title">Future</h1>
+              <p class="about-text">Email is always a nice gesture on what I should try and complete next. Maybe I should create a sort of poll that would help me gauge what people want to see. </p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="images/workplace.jpg" alt="Bugs and Issues" width="1100" height="500">
+            <div class="carousel-caption">
+              <h1 class="about-text-title">Bugs and Issues</h1>
+              <p class="about-text">Most of the issues I would have or someone else may encounter has been ironed out. Although there may be some issues that I may have missed considering some days I may have worked on this project till late. </p>
+            </div>   
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+
+        <!-- End of actual body content -->
+
+
+      <!-- Styled image on the bottom right-->
+
+    <img src="images/isaiah.jpg" class="rounded-circle mx-auto d-block float-right" width="15%">
+
 
     <!-- Footer -->
 <footer class="page-footer font-small blue pt-4">
@@ -67,7 +125,7 @@
       <div class="col-md-6 mt-md-0 mt-3">
 
         <!-- Content -->
-        <h5 class="text">Contact Information</h5>
+        <h5 class="text-center">Contact Information</h5>
         <p>Let me know what you think of this project by sending me any ideas on how to go forward</p>
 
       </div>
@@ -78,7 +136,7 @@
       <!-- Grid column -->
       <div class="col-md-3 mb-md-0 mb-3">
 
-        <!-- Links -->
+        <!-- Links to Contact Information -->
         <h5 class="text-uppercase">Links and Such</h5>
 
         <ul class="list-unstyled">
@@ -94,7 +152,6 @@
         </ul>
 
       </div>
-      <!-- Grid column -->
 
       <!-- Grid column -->
       <div class="col-md-3 mb-md-0 mb-3">
@@ -109,10 +166,8 @@
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2018 Copyright: Isaiah Vertus (The assets from this website are not owned by me)
-  </div>
-  <!-- Copyright -->
 
+  </div>
 </footer>
-<!-- Footer -->
   </body>
 </html>

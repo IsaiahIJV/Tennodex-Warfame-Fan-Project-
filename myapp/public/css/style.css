@@ -1,3 +1,13 @@
 body {
   background-color: black;
 }
+
+.about-text {
+  color: white;
+  font-size: 20px;
+  background-color: black;
+}
+
+.about-text-title {
+  color: black;
+}
